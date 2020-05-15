@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appcarnett.Visita">
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame BorderColor="Green"
+                   Margin="10"
+                   BackgroundColor="Black" Opacity=".8" HasShadow="True">
+                <StackLayout>
+                    <Label x:Name="userrr" IsVisible="False"/>
+                    <ListView x:Name="informacioan" BackgroundColor="Transparent" RowHeight="210">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell IsEnabled="False">
+                                    <StackLayout >
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition Height="auto"/>
+                                            </Grid.RowDefinitions>
+                                        </Grid>
+                                        <StackLayout Grid.Row="0">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="auto"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Label Text="Nombre: " Style="{StaticResource ProfileNameLabel}" FontSize="15" Grid.Column="0" HorizontalOptions="StartAndExpand"/>
+                                                <Label Text="{Binding Nombre}" TextColor="White" Style="{StaticResource ProfileNameLabel}" Grid.Column="1" FontSize="15" HorizontalOptions="End"/>
+                                            </Grid>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="1">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="auto"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Label Text="Idvisita: " Style="{StaticResource ProfileNameLabel}" Grid.Column="0" FontSize="15" HorizontalOptions="StartAndExpand"/>
+                                                <Label Text="{Binding Idvisita}" TextColor="White" Style="{StaticResource ProfileNameLabel}" Grid.Column="
+                                                   1" FontSize="15" HorizontalOptions="End"></Label>
+                                            </Grid>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="2">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="auto"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Label Text="Iduser: " Style="{StaticResource ProfileNameLabel}" FontSize="15" Grid.Column="0" HorizontalOptions="StartAndExpand"/>
+                                                <Label Text="{Binding iduser}" TextColor="White" Style="{StaticResource ProfileNameLabel}" VerticalTextAlignment="Center"  Grid.Column="1" FontSize="15" HorizontalOptions="End"/>
+                                            </Grid>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="3">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Label Text="Día: " HorizontalOptions="StartAndExpand" Style="{StaticResource ProfileNameLabel}" FontSize="15" Grid.Column="0"/>
+                                                <Label Text="{Binding dia}" TextColor="White" Style="{StaticResource ProfileNameLabel}" Grid.Column="1"  FontSize="13" VerticalTextAlignment="End" HorizontalOptions="End"/>
+
+                                            </Grid>
+                                        </StackLayout >
+                                        <StackLayout Grid.Row="4">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Label Text="Hora: " Style="{StaticResource ProfileNameLabel}" FontSize="15" Grid.Column="0" HorizontalOptions="StartAndExpand"/>
+                                                <Label Text="{Binding hora}" TextColor="White" Style="{StaticResource ProfileNameLabel}" Grid.Column="1" FontSize="15" VerticalTextAlignment="End" HorizontalOptions="End"/>
+                                            </Grid>
+
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="5">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Label Text="Cantidad: " Style="{StaticResource ProfileNameLabel}" FontSize="15" Grid.Column="0" HorizontalOptions="StartAndExpand" />
+                                                <Label Text="{Binding cantidad}" TextColor="White" Style="{StaticResource ProfileNameLabel}" Grid.Column="1" FontSize="15" VerticalTextAlignment="End" HorizontalOptions="End"/>
+                                            </Grid>
+
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

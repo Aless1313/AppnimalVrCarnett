@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appcarnett.Menu"
+             BackgroundImage="fpr.png">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout VerticalOptions="EndAndExpand" Padding="10,0,10,10">
+                <Button x:Name="btnvisita"  Text="Visitas Guiadas"  Clicked="btnvisit_Clicked" Style="{StaticResource FollowButton}"/>
+                <Button x:Name="btnfactura"  Text="Facturación"  Clicked="btnfact_Clicked" Style="{StaticResource FollowButton}"/>
+                <Button x:Name="btncarnet"  Text="Escaner"  Clicked="btnlector_Clicked"  Style="{StaticResource FollowButton}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

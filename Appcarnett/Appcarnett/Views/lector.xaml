@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing" xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             x:Class="Appcarnett.Page1"
+             BackgroundImage="fpr.png">
+    <ContentPage.Content>
+        <Frame BorderColor="Green"
+                   Margin="10"
+                   BackgroundColor="Black" Opacity=".8" HasShadow="True">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Image x:Name="qr" IsVisible="False" WidthRequest="400" HeightRequest="400" Source="QR.png"/>
+                <Button Text="Generate QR Code" x:Name="generateqr" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Clicked="generateqr_Clicked" />
+            </StackLayout>
+
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

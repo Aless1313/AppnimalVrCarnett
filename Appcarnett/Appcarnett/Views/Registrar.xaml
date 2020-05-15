@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appcarnett.Registrar"
+             Title="Registrar"
+             BackgroundImage="ft.png">
+    <ContentPage.Content>
+        <Frame BorderColor="Green"
+                   Margin="10"
+                   BackgroundColor="Black" Opacity=".8" HasShadow="True" >
+            <Grid>
+
+                <BoxView Color="Black" Opacity=".5"></BoxView>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.Row="0" Source="app.png" WidthRequest="150" HeightRequest="150" Margin="0,60,0,30"/>
+                    <StackLayout Grid.Row="1" Padding="30,20">
+                        <Entry x:Name="txtid" Placeholder="Nombre" PlaceholderColor="White" TextColor="White"/>
+                        <Entry x:Name="txtnomb" Placeholder="Apellido" PlaceholderColor="White" TextColor="White"/>
+                        <Entry x:Name="txtapp" Placeholder="Correo" PlaceholderColor="White" TextColor="White"/>
+                        <Entry x:Name="txtcontra" Placeholder="Contraseña nueva" PlaceholderColor="White" IsPassword="True" TextColor="White"/>
+                        <Button Text="Guardar" TextColor="Black" x:Name="guardar" Clicked="guardar_Clicked" Style="{StaticResource FollowButton}"/>
+
+                    </StackLayout>
+                </Grid>
+            </Grid>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

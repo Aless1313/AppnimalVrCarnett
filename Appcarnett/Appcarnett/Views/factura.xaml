@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appcarnett.factura" BackgroundImage="ft.png" Title="Factura">
+    <ContentPage.Content>
+        <Frame BorderColor="Green"
+                   Margin="10"
+                   BackgroundColor="Black" Opacity=".8" HasShadow="True" >
+
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="1" Padding="30,20">
+                        <Label Text="NUEVA FACTURA" FontSize="Large" TextColor="Aqua" HorizontalOptions="CenterAndExpand" Opacity=".3"/>
+                        <Entry x:Name="txtnombr" Placeholder="Nombre" PlaceholderColor="White" TextColor="White" Opacity=".3"/>
+                        <Entry x:Name="txtappe" Placeholder="Apellido" PlaceholderColor="White" TextColor="White" Opacity=".3"/>
+                        <Entry x:Name="txtrfc" Placeholder="RFC" PlaceholderColor="White" TextColor="White" Opacity=".3"/>
+                        <Entry x:Name="txtprodo" Placeholder="Producto o Servicio" PlaceholderColor="White" TextColor="White" Opacity=".3"/>
+                        <Button Text="GENERAR FACTURA"  TextColor="Black" Style="{StaticResource FollowButton}"/>
+
+                    </StackLayout>
+
+
+                </Grid>
+            </StackLayout>
+        </Frame>
+      
+    </ContentPage.Content>
+</ContentPage>

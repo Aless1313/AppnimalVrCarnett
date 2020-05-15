@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Appcarnett"
+             x:Class="Appcarnett.MainPage"
+             BackgroundImage="ft.png">
+
+    <ContentPage.Content>
+        <Frame
+            BorderColor="Transparent"
+                   Margin="10,0,10,25"
+                   BackgroundColor="Transparent" Opacity=".8" HasShadow="True">
+            <Grid BackgroundColor="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Row="0" Source="app.png" WidthRequest="150" HeightRequest="150" Margin="0,60,0,30"/>
+                <StackLayout Grid.Row="1" Padding="30,20" BackgroundColor="Transparent">
+                    <Entry Placeholder="Usuario" x:Name="user" PlaceholderColor="White" VerticalOptions="Center" TextColor="White"/>
+                    <Entry Placeholder="Contraseña" x:Name="pass" PlaceholderColor="White" IsPassword="True" VerticalOptions="Center" TextColor="White"/>
+                    <Button x:Name="btnentrar" Text="Entrar" VerticalOptions="EndAndExpand" TextColor="Black" Clicked="btnentrar_Clicked" Style="{StaticResource FollowButton}"/>
+                    <Button x:Name="btnregistrar" Text="Registrar" VerticalOptions="End"  TextColor="Black" Clicked="btnregistrar_Clicked" Style="{StaticResource FollowButton}"/>
+                </StackLayout>
+
+
+            </Grid>
+
+      
+        </Frame>
+
+       
+    </ContentPage.Content>
+
+</ContentPage>
