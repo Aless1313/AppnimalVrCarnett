@@ -64,5 +64,11 @@ namespace Appcarnett.clases
             }
         }
 
+        public async void puntos(string iduser)
+        {
+            
+            HttpClient client = getClient();
+            var result = await client.GetAsync(URL + "puntos.php?puntos=" + 5 + "&iduser=" + iduser);
+        }
     }
 }

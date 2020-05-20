@@ -5,14 +5,14 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.CAMERA" />
   <application android:label="Appcarnett.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Appcarnett" android:theme="@style/MainTheme" android:name="md59d1d0bf1d14f70bfcb94d07016ddd822.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Appcarnett" android:theme="@style/MainTheme" android:name="crc64edbac89984cf51fb.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <receiver android:enabled="true" android:exported="false" android:name="md51558244f76c53b6aeda52c8a337f2c37.PowerSaveModeBroadcastReceiver" />
-    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="md5bb098716dd46c8e113564e6b42b7cde9.ZxingActivity" />
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.Appcarnett.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:enabled="true" android:exported="false" android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" />
+    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="crc6480997b3ef81bf9b2.ZxingActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.Appcarnett.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

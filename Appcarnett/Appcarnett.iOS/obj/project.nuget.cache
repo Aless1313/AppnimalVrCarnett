@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aCL4+LVIS7lm1kAFgwZiykpWhdDWoQuk8gjQM2BBAWvDdv6DsjxnAb6qSP0vGiE7Ef4jtlnNPpPMcl8+aoeqVw==",
+  "dgSpecHash": "MUsvuJOt+QQbFs64+YcRXT3Tc7h4HwfqvslG/qslwbxkVNn4lC/3eISPNDXD8Yl6aZUknhUUABYZCjcylBNfQA==",
   "success": true,
-  "projectFilePath": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj",
+  "projectFilePath": "E:\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",

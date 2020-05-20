@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Appcarnett.clases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,7 @@ namespace Appcarnett
         {
             Scanner();
         }
+
         private async void Scanner()
         {
             var scannerPage = new ZXingScannerPage();
@@ -46,10 +48,31 @@ namespace Appcarnett
                 {
                     await Navigation.PopAsync();
                     await DisplayAlert("Codigo", result.Text, "Aceptar");
+                    puntos(result.Text.ToString());
                 });
             };
 
             await Navigation.PushAsync(scannerPage);
         }
+
+        public async void puntos(string us)
+        {
+            
+            try
+            {
+                UseManager manager = new UseManager();
+                manager.puntos(us);
+
+                await DisplayAlert("Puntos", "Se han enviado " + 5 + " Zoocoins a la cuenta "+ us, "Aceptar");
+
+
+            }
+            catch (Exception r)
+            {
+                await DisplayAlert("Error", " :( " + r.Message, "Aceptar");
+            }
+
+        }
+
     }
 }

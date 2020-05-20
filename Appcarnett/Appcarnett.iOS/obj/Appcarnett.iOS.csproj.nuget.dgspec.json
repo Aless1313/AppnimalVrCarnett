@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj": {}
+    "E:\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj": {
+    "E:\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj",
+        "projectUniqueName": "E:\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj",
         "projectName": "Appcarnett.iOS",
-        "projectPath": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj",
+        "projectPath": "E:\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\Appcarnett.iOS.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\obj\\",
+        "outputPath": "E:\\Appcarnett\\Appcarnett\\Appcarnett.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj": {
-                "projectPath": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj"
+              "E:\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj": {
+                "projectPath": "E:\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj": {
+    "E:\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj",
+        "projectUniqueName": "E:\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj",
         "projectName": "Appcarnett",
-        "projectPath": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj",
+        "projectPath": "E:\\Appcarnett\\Appcarnett\\Appcarnett\\Appcarnett.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett\\obj\\",
+        "outputPath": "E:\\Appcarnett\\Appcarnett\\Appcarnett\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

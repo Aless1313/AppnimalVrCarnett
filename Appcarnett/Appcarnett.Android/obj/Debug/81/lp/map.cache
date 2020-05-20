@@ -24,13 +24,3 @@ Xamarin.Forms.Platform
 zxing.monoandroid
 ZXing.Net.Mobile.Forms.Android
 ZXingNetMobile
-Appcarnett
-Newtonsoft.Json
-System.Net.Http.Extensions
-System.Net.Http.Primitives
-System.Runtime
-Xamarin.Forms.Core
-Xamarin.Forms.Xaml
-ZXing.Net.Mobile.Core
-ZXing.Net.Mobile.Forms
-zxing.portable

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aGK4l3YcExiF8PHeQFZz+MXjSrFCAxUfh5KPFGuze3AuK5oj5aua9TOIBnPjUMrGGgF/yA9Xe1N/whImB/rvrA==",
+  "dgSpecHash": "pj5liL/ILrVcMsBtbg4AV2IEtMLiiT1EvtKNpcFb2eqPG2PMkZ/tlO0/65QgO+I2xy4cMA9QcLZfQ8TR1B1OlQ==",
   "success": true,
-  "projectFilePath": "D:\\Descargas\\Appcarnett\\Appcarnett\\Appcarnett.Android\\Appcarnett.Android.csproj",
+  "projectFilePath": "E:\\Appcarnett\\Appcarnett\\Appcarnett.Android\\Appcarnett.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
